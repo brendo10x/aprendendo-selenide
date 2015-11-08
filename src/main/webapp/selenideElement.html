@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Trabalhando com SelenideElement</title>
+</head>
+<body>
+	<form id="formulario">
+		<fieldset>
+			<legend>Trabalhe Conosco</legend>
+			<label for="input-1">Nome:</label>
+			<input type="text" placeholder="Informe seu nome" name="nome" /> <br>
+			<label>Sexo:</label>
+			<input type="radio" name="sexo" value="Masculino">Masculino
+			<input type="radio" name="sexo" value="Feminino">Feminino<br>
+			<label >Idioma:</label>
+			<input type="checkbox" name="idioma" value="Inglês">Inglês
+			<input type="checkbox" name="idioma" value="Espanhol">Espanhol<br>	
+			<label>Vaga:</label>  
+			 <select id="vaga">
+				  <option value="Desenvolvedor">Desenvolvedor</option>
+				  <option value="Gerente de TI">Gerente de TI</option>
+				  <option value="Suporte de TI">Suporte de TI</option>
+			 </select> <br>	  
+			<input type="submit" value="Enviar" id="btnEnviar" /> <input
+				type="submit" style="visibility: hidden;" value="Cancelar"
+				id="btnCancelar" />
+		</fieldset>
+	</form>
+</body>
+</html>
